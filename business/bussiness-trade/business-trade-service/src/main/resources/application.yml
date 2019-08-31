@@ -1,0 +1,10 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: business-trade
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册中心
+        server-addr: nacos.dev.com:8848
